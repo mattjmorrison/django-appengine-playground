@@ -1,0 +1,12 @@
+This project contains the basic setup needed to get Django running on Google App Engine with a few changes.
+
+For Django-nonrel instructions visit the website:
+http://www.allbuttonspressed.com/projects/djangoappengine
+
+The few changes that I've made include the following:
+
+1. I've followed the Django-nonrel installation instructions and also zipped all of the Django-nonrel dependencies and modified main.py to add the zip files to the path.
+
+2. I also moved the django admin media and templates into the media and templates directories (respectively). This was necessary because django's source is zipped.
+
+
